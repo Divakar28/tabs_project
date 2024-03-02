@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 25px;
+}
+.header {
+    height: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.header #tabText {
+    padding: 8px;
+    border-radius: 25px;
+    border: 0;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0;
+}
+.SearchUrl {
+    padding: 8px;
+    border-radius: 25px;
+    border: 0;
+    width: 400px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0;
+}
+.submitbtn {
+    border: 0;
+    padding: 4px 9px;
+    background: #ffb039;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#tabText::placeholder {
+    font-size: 12px;
+  }
+#tabText:focus-visible {
+    outline: none;
+}
+.SearchUrl::placeholder {
+    font-size: 12px;
+  }
+.SearchUrl:focus-visible {
+    outline: none;
+}
+.header #AdTab {
+    border: 0;
+    padding: 4px 9px;
+    background: #ffb039;
+    font-size: 20px;
+    cursor: pointer;
+}
+#list {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+}
+.tabviewDetails {
+    background-color: antiquewhite;
+    padding: 10px 0px;
+}
+.btinpClass{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.iframeView {
+    display: flex;
+    justify-content: center;
+}
+
+#list div {
+    font-weight: 600;
+    background-color: #ffb039;
+    padding: 8px 40px;
+    margin-right: 2px;
+    margin-top: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.activeTab {
+    border-bottom: 2px solid black;
+}
+.fa-remove {
+    cursor: pointer;
+    margin-left: 10px;
+}
